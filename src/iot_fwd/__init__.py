@@ -1,4 +1,4 @@
-""" Package for the IoTCoreForwarder application.
+""" Package for the iot_fwd application.
 
 """
 from .__version__ import __version__

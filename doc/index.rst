@@ -1,9 +1,9 @@
-.. IoTCoreForwarder documentation master file, created by
+.. iot_fwd documentation master file, created by
    sphinx-quickstart on Sun Aug 16 14:37:50 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to IoTCoreForwarder's documentation!
+Welcome to iot_fwd's documentation!
 =======================================
 
 Contents:

@@ -8,7 +8,7 @@ environment or setuptools develop mode to test against the development version.
 
 """
 import pytest
-from IoTCoreForwarder.api import *  # tests __all__
+from iot_fwd.api import *  # tests __all__
 
 
 def test_hello():

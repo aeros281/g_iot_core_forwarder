@@ -1,6 +1,6 @@
 """ Main application entry point.
 
-    python -m IoTCoreForwarder  ...
+    python -m iot_fwd  ...
 
 """
 def main():

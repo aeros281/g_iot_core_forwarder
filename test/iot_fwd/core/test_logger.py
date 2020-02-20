@@ -11,7 +11,7 @@ from logging import DEBUG
 from io import StringIO
 
 import pytest
-from IoTCoreForwarder.core.logger import *  # tests __all__
+from iot_fwd.core.logger import *  # tests __all__
 
 
 @pytest.fixture

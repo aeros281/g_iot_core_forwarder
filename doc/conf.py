@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# IoTCoreForwarder documentation build configuration file.
+# iot_fwd documentation build configuration file.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'IoTCoreForwarder'
+project = u'iot_fwd'
 copyright = u'2020, Anh Le Tuan Tran'
 author = u'Anh Le Tuan Tran'
 
@@ -199,7 +199,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'IoTCoreForwarderdoc'
+htmlhelp_basename = 'iot_fwddoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -221,7 +221,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'IoTCoreForwarder.tex', u'IoTCoreForwarder Documentation',
+  (master_doc, 'iot_fwd.tex', u'iot_fwd Documentation',
    u'Anh Le Tuan Tran', 'manual'),
 ]
 
@@ -251,7 +251,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'projectname', u'IoTCoreForwarder Documentation',
+    (master_doc, 'projectname', u'iot_fwd Documentation',
      [author], 1)
 ]
 
@@ -265,8 +265,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'IoTCoreForwarder', u'IoTCoreForwarder Documentation',
-   author, 'IoTCoreForwarder', 'One line description of project.',
+  (master_doc, 'iot_fwd', u'iot_fwd Documentation',
+   author, 'iot_fwd', 'One line description of project.',
    'Miscellaneous'),
 ]
 

@@ -11,7 +11,7 @@ from subprocess import call
 from sys import executable
 
 import pytest
-from IoTCoreForwarder.cli import *  # test __all__
+from iot_fwd.cli import *  # test __all__
 
 
 @pytest.fixture(params=("hello",))
@@ -38,7 +38,7 @@ def test_script(command):
 
     """
     # Call with the --help option as a basic sanity check.
-    cmdl = "{:s} -m IoTCoreForwarder.cli {:s} --help".format(executable, command)
+    cmdl = "{:s} -m iot_fwd.cli {:s} --help".format(executable, command)
     assert 0 == call(cmdl.split())
     return
 

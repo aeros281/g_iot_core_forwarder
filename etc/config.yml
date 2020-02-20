@@ -1,4 +1,4 @@
-## Runtime configuration for the IoTCoreForwarder application.
+## Runtime configuration for the iot_fwd application.
 ##
 core:
   logging: WARN

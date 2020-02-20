@@ -1,4 +1,4 @@
-""" Setup script for the IoTCoreForwarder application.
+""" Setup script for the iot_fwd application.
 
 """
 from os import walk
@@ -9,14 +9,14 @@ from setuptools import setup
 
 
 _config = {
-    "name": "IoTCoreForwarder",
+    "name": "iot_fwd",
     "url": "",
     "author": "Anh Le Tuan Tran",
     "author_email": "tranletuananh1992@gmail.com",
     "package_dir": {"": "src"},
     "packages": find_packages("src"),
     "entry_points": {
-        "console_scripts": ("iotfd = IoTCoreForwarder.cli:main",),
+        "console_scripts": ("iot_fwd = iot_fwd.cli:main",),
     },
     "data_files": ("etc/",),
 }

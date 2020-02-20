@@ -1,4 +1,4 @@
-## Python requirements for using the IoTCoreForwarder application.
+## Python requirements for using the iot_fwd application.
 ##
 ##   pyhon -m pip install --requirement=requirements.txt
 ##

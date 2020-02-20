@@ -10,7 +10,7 @@ environment or setuptools develop mode to test against the development version.
 from yaml import dump
 
 import pytest
-from IoTCoreForwarder.core.config import *  # tests __all__
+from iot_fwd.core.config import *  # tests __all__
 
 
 class YamlConfigTest(object):
