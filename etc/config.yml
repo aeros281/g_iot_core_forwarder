@@ -1,0 +1,4 @@
+## Runtime configuration for the IoTCoreForwarder application.
+##
+core:
+  logging: WARN
