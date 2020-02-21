@@ -1,0 +1,4 @@
+## Runtime configuration for the iot_fwd application.
+##
+core:
+  logging: WARN
