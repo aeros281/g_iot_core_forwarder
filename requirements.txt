@@ -1,5 +1,10 @@
-## Python requirements for using the iot_fwd application.
-##
-##   pyhon -m pip install --requirement=requirements.txt
-##
-PyYAML>=3.11
+entrypoints==0.3
+flake8==3.7.9
+iot-fwd==0.1.0.dev0
+jedi==0.16.0
+mccabe==0.6.1
+paho-mqtt==1.5.0
+parso==0.6.1
+pycodestyle==2.5.0
+pyflakes==2.1.1
+PyYAML==5.3
