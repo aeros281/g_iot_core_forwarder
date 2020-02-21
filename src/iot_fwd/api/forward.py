@@ -4,10 +4,10 @@
 from ..core.logger import logger
 
 
-def main(name="World") -> str:
+def main() -> str:
     """ Execute the command.
 
     :param name: name to use in greeting
     """
-    logger.debug("executing hello command")
-    return "Hello, {:s}!".format(name)  # TODO: use f-string for Python 3.6+
+    logger.debug("executing forward command")
+    return "Completed"
